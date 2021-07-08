@@ -5,19 +5,38 @@ var cities = [
         city_name: "ירושלים",
         description: "בירת ישראל",
         Image: '‏‏https://eng.beithillel.org.il/wp-content/uploads/2013/12/western-wall.jpg',
-        map: '‏‏‏‏kh.GIF',
-        icons: { position: [[33, 90], [10, 77]], text: ["blblbb", "mamamamam"] }
+        map: 'C:/Users/user/pure_js/isr_project/images/maps/jerusalem_map.GIF',
+        icons: { position: [[33, 90], [10, 77], [76, 37],[76, 21]], text: ["blblbb", "mamamamam", "dldldldld", "dldldldld"] }
 
     },
     {
         id: 2,
         city_name: "כוכב השחר",
         description: "ישוב קהילתי דתי",
-        Image: '‏‏kh.GIF',
-        map: 'https://eng.beithillel.org.il/wp-content/uploads/2013/12/western-wall.jpg',
-        icons: { position: [[20, 43], [76, 21]], text: ["blblbb", "mamamamam"] }
+        Image: 'C:/Users/user/pure_js/isr_project/images/cities_images/kh.GIF',
+        map: 'C:/Users/user/pure_js/isr_project/images/map/kh_map.GIF',
+        icons: { position: [[20, 43], [76, 21], [76, 37],[44, 15],], text: ["dldldldld","blblbb", "mamamamam","gagagagag"] }
 
-    }]
+    },
+    {
+        id: 3,
+        city_name: "רימונים",
+        description: "ישוב קהילתי ",
+        Image: 'https://goyosh-storage.s3.eu-west-3.amazonaws.com/yeshuvim/rimonim.jpg',
+        map: 'C:/Users/user/pure_js/isr_project/images/map/‏‏rimonim_map.GIF',
+        icons: { position: [[11, 55], [76, 37], [76, 3], [11, 2]], text: ["dldldldld","blblbb", "mamamamam","gagagagag"] }
+
+    },
+    {
+        id: 4,
+        city_name: "חיפה",
+        description: "העיר האדומה",
+        Image: 'https://haifahaifa.co.il/wp-content/uploads/2019/06/55.jpg',
+        map: 'C:/Users/user/pure_js/isr_project/images/map/‏‏hifa_map.GIF',
+        icons: { position: [[89, 98], [44, 15], [76, 37],[20, 43]], text: ["blblbb","dldldldld", "mamamamam","gagagagag"] }
+
+    }
+]
 
 
 $(document).ready(function () {
